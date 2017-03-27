@@ -3,8 +3,8 @@ CC=ocamlbuild -use-ocamlfind
 
 all: $(TARGET)
 
-$(TARGET): force 
-	ocamlbuild $@ 
+$(TARGET): force
+	$(CC) $@
 
 clean:
 	ocamlbuild -clean
