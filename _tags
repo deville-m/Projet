@@ -1,0 +1,4 @@
+<**/*>: include
+<src>: include
+true: package(unix, graphics, threads)
+true: thread, debug, annot
