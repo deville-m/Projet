@@ -40,7 +40,7 @@ let run_world (world : World.t) (config : Config.world_config) =
 	end;
 	
 	let t_now = Unix.time () in
-	Unix.select [] [] [] (config.refresh_time -. (t_now -. t_beg));
+	ignore (Unix.select [] [] [] (config.refresh_time -. (t_now -. t_beg)));
 	loop next_world (t +. config.dt)
       end
   in
