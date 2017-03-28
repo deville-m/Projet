@@ -14,4 +14,3 @@ type t = {
 (* charge : float ; *)
 (* movable : bool *)
 }
-	   

@@ -1,0 +1,1372 @@
+"src/geom2D.ml" 4 78 82 "src/geom2D.ml" 4 78 84
+type(
+  float
+)
+ident(
+  def pi "src/geom2D.ml" 6 102 102 "src/geom2D.ml" 1 0 -1
+)
+"src/geom2D.ml" 4 78 87 "src/geom2D.ml" 4 78 89
+type(
+  float
+)
+"src/geom2D.ml" 4 78 90 "src/geom2D.ml" 4 78 92
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geom2D.ml" 4 78 93 "src/geom2D.ml" 4 78 97
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.atan
+)
+"src/geom2D.ml" 4 78 98 "src/geom2D.ml" 4 78 100
+type(
+  float
+)
+"src/geom2D.ml" 4 78 93 "src/geom2D.ml" 4 78 100
+type(
+  float
+)
+"src/geom2D.ml" 4 78 87 "src/geom2D.ml" 4 78 100
+type(
+  float
+)
+"src/geom2D.ml" 8 126 132 "src/geom2D.ml" 8 126 136
+type(
+  float -> float -> vector
+)
+ident(
+  def make "src/geom2D.ml" 10 154 156 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 8 126 137 "src/geom2D.ml" 8 126 139
+type(
+  float
+)
+ident(
+  def dx "src/geom2D.ml" 8 126 140 "src/geom2D.ml" 8 126 152
+)
+"src/geom2D.ml" 8 126 140 "src/geom2D.ml" 8 126 142
+type(
+  float
+)
+ident(
+  def dy "src/geom2D.ml" 8 126 145 "src/geom2D.ml" 8 126 152
+)
+"src/geom2D.ml" 8 126 146 "src/geom2D.ml" 8 126 148
+type(
+  float
+)
+ident(
+  int_ref dx "src/geom2D.ml" 8 126 137 "src/geom2D.ml" 8 126 139
+)
+"src/geom2D.ml" 8 126 149 "src/geom2D.ml" 8 126 151
+type(
+  float
+)
+ident(
+  int_ref dy "src/geom2D.ml" 8 126 140 "src/geom2D.ml" 8 126 142
+)
+"src/geom2D.ml" 8 126 145 "src/geom2D.ml" 8 126 152
+type(
+  vector
+)
+"src/geom2D.ml" 10 154 160 "src/geom2D.ml" 10 154 170
+type(
+  vector
+)
+ident(
+  def nul_vector "src/geom2D.ml" 12 185 187 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 10 154 173 "src/geom2D.ml" 10 154 177
+type(
+  float -> float -> vector
+)
+ident(
+  int_ref make "src/geom2D.ml" 8 126 132 "src/geom2D.ml" 8 126 136
+)
+"src/geom2D.ml" 10 154 178 "src/geom2D.ml" 10 154 180
+type(
+  float
+)
+"src/geom2D.ml" 10 154 181 "src/geom2D.ml" 10 154 183
+type(
+  float
+)
+"src/geom2D.ml" 10 154 173 "src/geom2D.ml" 10 154 183
+call(
+  stack
+)
+type(
+  vector
+)
+"src/geom2D.ml" 12 185 191 "src/geom2D.ml" 12 185 198
+type(
+  vector -> float
+)
+ident(
+  def x_coord "src/geom2D.ml" 13 217 219 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 12 185 200 "src/geom2D.ml" 12 185 201
+type(
+  vector
+)
+ident(
+  def v "src/geom2D.ml" 12 185 212 "src/geom2D.ml" 12 185 216
+)
+"src/geom2D.ml" 12 185 212 "src/geom2D.ml" 12 185 213
+type(
+  vector
+)
+ident(
+  int_ref v "src/geom2D.ml" 12 185 200 "src/geom2D.ml" 12 185 201
+)
+"src/geom2D.ml" 12 185 212 "src/geom2D.ml" 12 185 216
+type(
+  float
+)
+"src/geom2D.ml" 13 217 223 "src/geom2D.ml" 13 217 230
+type(
+  vector -> float
+)
+ident(
+  def y_coord "src/geom2D.ml" 15 250 252 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 13 217 232 "src/geom2D.ml" 13 217 233
+type(
+  vector
+)
+ident(
+  def v "src/geom2D.ml" 13 217 244 "src/geom2D.ml" 13 217 248
+)
+"src/geom2D.ml" 13 217 244 "src/geom2D.ml" 13 217 245
+type(
+  vector
+)
+ident(
+  int_ref v "src/geom2D.ml" 13 217 232 "src/geom2D.ml" 13 217 233
+)
+"src/geom2D.ml" 13 217 244 "src/geom2D.ml" 13 217 248
+type(
+  float
+)
+"src/geom2D.ml" 15 250 256 "src/geom2D.ml" 15 250 265
+type(
+  point -> point -> vector
+)
+ident(
+  def of_points "src/geom2D.ml" 18 346 348 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 15 250 267 "src/geom2D.ml" 15 250 268
+type(
+  point
+)
+ident(
+  def a "src/geom2D.ml" 15 250 277 "src/geom2D.ml" 16 300 338
+)
+"src/geom2D.ml" 15 250 278 "src/geom2D.ml" 15 250 279
+type(
+  point
+)
+ident(
+  def b "src/geom2D.ml" 15 250 289 "src/geom2D.ml" 16 300 338
+)
+"src/geom2D.ml" 16 300 310 "src/geom2D.ml" 16 300 311
+type(
+  point
+)
+ident(
+  int_ref b "src/geom2D.ml" 15 250 278 "src/geom2D.ml" 15 250 279
+)
+"src/geom2D.ml" 16 300 310 "src/geom2D.ml" 16 300 313
+type(
+  float
+)
+"src/geom2D.ml" 16 300 314 "src/geom2D.ml" 16 300 316
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/geom2D.ml" 16 300 317 "src/geom2D.ml" 16 300 318
+type(
+  point
+)
+ident(
+  int_ref a "src/geom2D.ml" 15 250 267 "src/geom2D.ml" 15 250 268
+)
+"src/geom2D.ml" 16 300 317 "src/geom2D.ml" 16 300 320
+type(
+  float
+)
+"src/geom2D.ml" 16 300 310 "src/geom2D.ml" 16 300 320
+type(
+  float
+)
+"src/geom2D.ml" 16 300 327 "src/geom2D.ml" 16 300 328
+type(
+  point
+)
+ident(
+  int_ref b "src/geom2D.ml" 15 250 278 "src/geom2D.ml" 15 250 279
+)
+"src/geom2D.ml" 16 300 327 "src/geom2D.ml" 16 300 330
+type(
+  float
+)
+"src/geom2D.ml" 16 300 331 "src/geom2D.ml" 16 300 333
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/geom2D.ml" 16 300 334 "src/geom2D.ml" 16 300 335
+type(
+  point
+)
+ident(
+  int_ref a "src/geom2D.ml" 15 250 267 "src/geom2D.ml" 15 250 268
+)
+"src/geom2D.ml" 16 300 334 "src/geom2D.ml" 16 300 337
+type(
+  float
+)
+"src/geom2D.ml" 16 300 327 "src/geom2D.ml" 16 300 337
+type(
+  float
+)
+"src/geom2D.ml" 16 300 304 "src/geom2D.ml" 16 300 338
+type(
+  vector
+)
+type(
+  vector
+)
+"src/geom2D.ml" 18 346 352 "src/geom2D.ml" 18 346 361
+type(
+  vector -> float
+)
+ident(
+  def magnitude "src/geom2D.ml" 21 425 427 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 18 346 364 "src/geom2D.ml" 18 346 366
+type(
+  float
+)
+ident(
+  def dx "src/geom2D.ml" 19 381 385 "src/geom2D.ml" 19 381 412
+)
+"src/geom2D.ml" 18 346 367 "src/geom2D.ml" 18 346 369
+type(
+  float
+)
+ident(
+  def dy "src/geom2D.ml" 19 381 385 "src/geom2D.ml" 19 381 412
+)
+"src/geom2D.ml" 18 346 363 "src/geom2D.ml" 18 346 370
+type(
+  vector
+)
+"src/geom2D.ml" 19 381 385 "src/geom2D.ml" 19 381 389
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.sqrt
+)
+"src/geom2D.ml" 19 381 391 "src/geom2D.ml" 19 381 393
+type(
+  float
+)
+ident(
+  int_ref dx "src/geom2D.ml" 18 346 364 "src/geom2D.ml" 18 346 366
+)
+"src/geom2D.ml" 19 381 394 "src/geom2D.ml" 19 381 396
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geom2D.ml" 19 381 397 "src/geom2D.ml" 19 381 399
+type(
+  float
+)
+ident(
+  int_ref dx "src/geom2D.ml" 18 346 364 "src/geom2D.ml" 18 346 366
+)
+"src/geom2D.ml" 19 381 391 "src/geom2D.ml" 19 381 399
+type(
+  float
+)
+"src/geom2D.ml" 19 381 400 "src/geom2D.ml" 19 381 402
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geom2D.ml" 19 381 403 "src/geom2D.ml" 19 381 405
+type(
+  float
+)
+ident(
+  int_ref dy "src/geom2D.ml" 18 346 367 "src/geom2D.ml" 18 346 369
+)
+"src/geom2D.ml" 19 381 406 "src/geom2D.ml" 19 381 408
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geom2D.ml" 19 381 409 "src/geom2D.ml" 19 381 411
+type(
+  float
+)
+ident(
+  int_ref dy "src/geom2D.ml" 18 346 367 "src/geom2D.ml" 18 346 369
+)
+"src/geom2D.ml" 19 381 403 "src/geom2D.ml" 19 381 411
+type(
+  float
+)
+"src/geom2D.ml" 19 381 390 "src/geom2D.ml" 19 381 412
+type(
+  float
+)
+"src/geom2D.ml" 19 381 385 "src/geom2D.ml" 19 381 412
+type(
+  float
+)
+"src/geom2D.ml" 21 425 431 "src/geom2D.ml" 21 425 442
+type(
+  vector -> vector -> float
+)
+ident(
+  def dot_product "src/geom2D.ml" 24 507 509 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 21 425 443 "src/geom2D.ml" 21 425 448
+type(
+  vector
+)
+ident(
+  def vect1 "src/geom2D.ml" 21 425 449 "src/geom2D.ml" 22 457 505
+)
+"src/geom2D.ml" 21 425 449 "src/geom2D.ml" 21 425 454
+type(
+  vector
+)
+ident(
+  def vect2 "src/geom2D.ml" 22 457 461 "src/geom2D.ml" 22 457 505
+)
+"src/geom2D.ml" 22 457 461 "src/geom2D.ml" 22 457 466
+type(
+  vector
+)
+ident(
+  int_ref vect1 "src/geom2D.ml" 21 425 443 "src/geom2D.ml" 21 425 448
+)
+"src/geom2D.ml" 22 457 461 "src/geom2D.ml" 22 457 469
+type(
+  float
+)
+"src/geom2D.ml" 22 457 470 "src/geom2D.ml" 22 457 472
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geom2D.ml" 22 457 473 "src/geom2D.ml" 22 457 478
+type(
+  vector
+)
+ident(
+  int_ref vect2 "src/geom2D.ml" 21 425 449 "src/geom2D.ml" 21 425 454
+)
+"src/geom2D.ml" 22 457 473 "src/geom2D.ml" 22 457 481
+type(
+  float
+)
+"src/geom2D.ml" 22 457 461 "src/geom2D.ml" 22 457 481
+type(
+  float
+)
+"src/geom2D.ml" 22 457 482 "src/geom2D.ml" 22 457 484
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geom2D.ml" 22 457 485 "src/geom2D.ml" 22 457 490
+type(
+  vector
+)
+ident(
+  int_ref vect1 "src/geom2D.ml" 21 425 443 "src/geom2D.ml" 21 425 448
+)
+"src/geom2D.ml" 22 457 485 "src/geom2D.ml" 22 457 493
+type(
+  float
+)
+"src/geom2D.ml" 22 457 494 "src/geom2D.ml" 22 457 496
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geom2D.ml" 22 457 497 "src/geom2D.ml" 22 457 502
+type(
+  vector
+)
+ident(
+  int_ref vect2 "src/geom2D.ml" 21 425 449 "src/geom2D.ml" 21 425 454
+)
+"src/geom2D.ml" 22 457 497 "src/geom2D.ml" 22 457 505
+type(
+  float
+)
+"src/geom2D.ml" 22 457 485 "src/geom2D.ml" 22 457 505
+type(
+  float
+)
+"src/geom2D.ml" 22 457 461 "src/geom2D.ml" 22 457 505
+type(
+  float
+)
+"src/geom2D.ml" 24 507 513 "src/geom2D.ml" 24 507 522
+type(
+  float -> vector -> vector
+)
+ident(
+  def scal_mult "src/geom2D.ml" 27 576 578 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 24 507 523 "src/geom2D.ml" 24 507 524
+type(
+  float
+)
+ident(
+  def f "src/geom2D.ml" 24 507 525 "src/geom2D.ml" 25 532 574
+)
+"src/geom2D.ml" 24 507 525 "src/geom2D.ml" 24 507 529
+type(
+  vector
+)
+ident(
+  def vect "src/geom2D.ml" 25 532 536 "src/geom2D.ml" 25 532 574
+)
+"src/geom2D.ml" 25 532 542 "src/geom2D.ml" 25 532 543
+type(
+  float
+)
+ident(
+  int_ref f "src/geom2D.ml" 24 507 523 "src/geom2D.ml" 24 507 524
+)
+"src/geom2D.ml" 25 532 544 "src/geom2D.ml" 25 532 546
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geom2D.ml" 25 532 547 "src/geom2D.ml" 25 532 551
+type(
+  vector
+)
+ident(
+  int_ref vect "src/geom2D.ml" 24 507 525 "src/geom2D.ml" 24 507 529
+)
+"src/geom2D.ml" 25 532 547 "src/geom2D.ml" 25 532 554
+type(
+  float
+)
+"src/geom2D.ml" 25 532 542 "src/geom2D.ml" 25 532 554
+type(
+  float
+)
+"src/geom2D.ml" 25 532 561 "src/geom2D.ml" 25 532 562
+type(
+  float
+)
+ident(
+  int_ref f "src/geom2D.ml" 24 507 523 "src/geom2D.ml" 24 507 524
+)
+"src/geom2D.ml" 25 532 563 "src/geom2D.ml" 25 532 565
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geom2D.ml" 25 532 566 "src/geom2D.ml" 25 532 570
+type(
+  vector
+)
+ident(
+  int_ref vect "src/geom2D.ml" 24 507 525 "src/geom2D.ml" 24 507 529
+)
+"src/geom2D.ml" 25 532 566 "src/geom2D.ml" 25 532 573
+type(
+  float
+)
+"src/geom2D.ml" 25 532 561 "src/geom2D.ml" 25 532 573
+type(
+  float
+)
+"src/geom2D.ml" 25 532 536 "src/geom2D.ml" 25 532 574
+type(
+  vector
+)
+"src/geom2D.ml" 27 576 582 "src/geom2D.ml" 27 576 591
+type(
+  vector -> vector
+)
+ident(
+  def normalize "src/geom2D.ml" 30 648 650 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 27 576 594 "src/geom2D.ml" 27 576 596
+type(
+  float
+)
+ident(
+  def dx "src/geom2D.ml" 28 609 613 "src/geom2D.ml" 28 609 646
+)
+"src/geom2D.ml" 27 576 597 "src/geom2D.ml" 27 576 599
+type(
+  float
+)
+ident(
+  def dy "src/geom2D.ml" 28 609 613 "src/geom2D.ml" 28 609 646
+)
+"src/geom2D.ml" 27 576 593 "src/geom2D.ml" 27 576 600
+type(
+  vector
+)
+"src/geom2D.ml" 27 576 604 "src/geom2D.ml" 27 576 605
+ident(
+  def v "src/geom2D.ml" 28 609 613 "src/geom2D.ml" 28 609 646
+)
+"src/geom2D.ml" 27 576 592 "src/geom2D.ml" 27 576 606
+type(
+  vector
+)
+"src/geom2D.ml" 28 609 613 "src/geom2D.ml" 28 609 622
+type(
+  float -> vector -> vector
+)
+ident(
+  int_ref scal_mult "src/geom2D.ml" 24 507 513 "src/geom2D.ml" 24 507 522
+)
+"src/geom2D.ml" 28 609 624 "src/geom2D.ml" 28 609 626
+type(
+  float
+)
+"src/geom2D.ml" 28 609 627 "src/geom2D.ml" 28 609 629
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geom2D.ml" 28 609 631 "src/geom2D.ml" 28 609 640
+type(
+  vector -> float
+)
+ident(
+  int_ref magnitude "src/geom2D.ml" 18 346 352 "src/geom2D.ml" 18 346 361
+)
+"src/geom2D.ml" 28 609 641 "src/geom2D.ml" 28 609 642
+type(
+  vector
+)
+ident(
+  int_ref v "src/geom2D.ml" 27 576 592 "src/geom2D.ml" 27 576 606
+)
+"src/geom2D.ml" 28 609 630 "src/geom2D.ml" 28 609 643
+call(
+  stack
+)
+type(
+  float
+)
+"src/geom2D.ml" 28 609 623 "src/geom2D.ml" 28 609 644
+type(
+  float
+)
+"src/geom2D.ml" 28 609 645 "src/geom2D.ml" 28 609 646
+type(
+  vector
+)
+ident(
+  int_ref v "src/geom2D.ml" 27 576 592 "src/geom2D.ml" 27 576 606
+)
+"src/geom2D.ml" 28 609 613 "src/geom2D.ml" 28 609 646
+call(
+  tail
+)
+type(
+  vector
+)
+"src/geom2D.ml" 30 648 654 "src/geom2D.ml" 30 648 662
+type(
+  vector -> vector
+)
+ident(
+  def opposite "src/geom2D.ml" 33 691 693 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 30 648 663 "src/geom2D.ml" 30 648 664
+type(
+  vector
+)
+ident(
+  def v "src/geom2D.ml" 31 667 671 "src/geom2D.ml" 31 667 689
+)
+"src/geom2D.ml" 31 667 671 "src/geom2D.ml" 31 667 680
+type(
+  float -> vector -> vector
+)
+ident(
+  int_ref scal_mult "src/geom2D.ml" 24 507 513 "src/geom2D.ml" 24 507 522
+)
+"src/geom2D.ml" 31 667 681 "src/geom2D.ml" 31 667 687
+type(
+  float
+)
+"src/geom2D.ml" 31 667 688 "src/geom2D.ml" 31 667 689
+type(
+  vector
+)
+ident(
+  int_ref v "src/geom2D.ml" 30 648 663 "src/geom2D.ml" 30 648 664
+)
+"src/geom2D.ml" 31 667 671 "src/geom2D.ml" 31 667 689
+call(
+  tail
+)
+type(
+  vector
+)
+"src/geom2D.ml" 33 691 697 "src/geom2D.ml" 33 691 700
+type(
+  vector -> vector -> vector
+)
+ident(
+  def add "src/geom2D.ml" 36 785 787 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 33 691 702 "src/geom2D.ml" 33 691 704
+type(
+  vector
+)
+ident(
+  def v1 "src/geom2D.ml" 33 691 713 "src/geom2D.ml" 34 737 783
+)
+"src/geom2D.ml" 33 691 714 "src/geom2D.ml" 33 691 716
+type(
+  vector
+)
+ident(
+  def v2 "src/geom2D.ml" 33 691 725 "src/geom2D.ml" 34 737 783
+)
+"src/geom2D.ml" 34 737 747 "src/geom2D.ml" 34 737 749
+type(
+  vector
+)
+ident(
+  int_ref v1 "src/geom2D.ml" 33 691 702 "src/geom2D.ml" 33 691 704
+)
+"src/geom2D.ml" 34 737 747 "src/geom2D.ml" 34 737 752
+type(
+  float
+)
+"src/geom2D.ml" 34 737 753 "src/geom2D.ml" 34 737 755
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geom2D.ml" 34 737 756 "src/geom2D.ml" 34 737 758
+type(
+  vector
+)
+ident(
+  int_ref v2 "src/geom2D.ml" 33 691 714 "src/geom2D.ml" 33 691 716
+)
+"src/geom2D.ml" 34 737 756 "src/geom2D.ml" 34 737 761
+type(
+  float
+)
+"src/geom2D.ml" 34 737 747 "src/geom2D.ml" 34 737 761
+type(
+  float
+)
+"src/geom2D.ml" 34 737 768 "src/geom2D.ml" 34 737 770
+type(
+  vector
+)
+ident(
+  int_ref v1 "src/geom2D.ml" 33 691 702 "src/geom2D.ml" 33 691 704
+)
+"src/geom2D.ml" 34 737 768 "src/geom2D.ml" 34 737 773
+type(
+  float
+)
+"src/geom2D.ml" 34 737 774 "src/geom2D.ml" 34 737 776
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geom2D.ml" 34 737 777 "src/geom2D.ml" 34 737 779
+type(
+  vector
+)
+ident(
+  int_ref v2 "src/geom2D.ml" 33 691 714 "src/geom2D.ml" 33 691 716
+)
+"src/geom2D.ml" 34 737 777 "src/geom2D.ml" 34 737 782
+type(
+  float
+)
+"src/geom2D.ml" 34 737 768 "src/geom2D.ml" 34 737 782
+type(
+  float
+)
+"src/geom2D.ml" 34 737 741 "src/geom2D.ml" 34 737 783
+type(
+  vector
+)
+type(
+  vector
+)
+"src/geom2D.ml" 36 785 791 "src/geom2D.ml" 36 785 800
+type(
+  vector -> vector -> vector
+)
+ident(
+  def substract "src/geom2D.ml" 39 835 837 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 36 785 801 "src/geom2D.ml" 36 785 803
+type(
+  vector
+)
+ident(
+  def v1 "src/geom2D.ml" 36 785 804 "src/geom2D.ml" 37 809 833
+)
+"src/geom2D.ml" 36 785 804 "src/geom2D.ml" 36 785 806
+type(
+  vector
+)
+ident(
+  def v2 "src/geom2D.ml" 37 809 813 "src/geom2D.ml" 37 809 833
+)
+"src/geom2D.ml" 37 809 813 "src/geom2D.ml" 37 809 816
+type(
+  vector -> vector -> vector
+)
+ident(
+  int_ref add "src/geom2D.ml" 33 691 697 "src/geom2D.ml" 33 691 700
+)
+"src/geom2D.ml" 37 809 817 "src/geom2D.ml" 37 809 819
+type(
+  vector
+)
+ident(
+  int_ref v1 "src/geom2D.ml" 36 785 801 "src/geom2D.ml" 36 785 803
+)
+"src/geom2D.ml" 37 809 821 "src/geom2D.ml" 37 809 829
+type(
+  vector -> vector
+)
+ident(
+  int_ref opposite "src/geom2D.ml" 30 648 654 "src/geom2D.ml" 30 648 662
+)
+"src/geom2D.ml" 37 809 830 "src/geom2D.ml" 37 809 832
+type(
+  vector
+)
+ident(
+  int_ref v2 "src/geom2D.ml" 36 785 804 "src/geom2D.ml" 36 785 806
+)
+"src/geom2D.ml" 37 809 820 "src/geom2D.ml" 37 809 833
+call(
+  stack
+)
+type(
+  vector
+)
+"src/geom2D.ml" 37 809 813 "src/geom2D.ml" 37 809 833
+call(
+  tail
+)
+type(
+  vector
+)
+"src/geom2D.ml" 39 835 841 "src/geom2D.ml" 39 835 857
+type(
+  vector -> string
+)
+ident(
+  def string_of_vector "src/geom2D.ml" 40 868 906 "src/geom2D.ml" 42 908 911
+)
+"src/geom2D.ml" 39 835 859 "src/geom2D.ml" 39 835 861
+type(
+  float
+)
+ident(
+  def dx "src/geom2D.ml" 40 868 872 "src/geom2D.ml" 40 868 906
+)
+"src/geom2D.ml" 39 835 862 "src/geom2D.ml" 39 835 864
+type(
+  float
+)
+ident(
+  def dy "src/geom2D.ml" 40 868 872 "src/geom2D.ml" 40 868 906
+)
+"src/geom2D.ml" 39 835 858 "src/geom2D.ml" 39 835 865
+type(
+  vector
+)
+"src/geom2D.ml" 40 868 872 "src/geom2D.ml" 40 868 886
+type(
+  (float -> float -> string, unit, string) format -> float -> float -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"src/geom2D.ml" 40 868 887 "src/geom2D.ml" 40 868 900
+type(
+  (float -> float -> string, unit, string) format
+)
+"src/geom2D.ml" 40 868 901 "src/geom2D.ml" 40 868 903
+type(
+  float
+)
+ident(
+  int_ref dx "src/geom2D.ml" 39 835 859 "src/geom2D.ml" 39 835 861
+)
+"src/geom2D.ml" 40 868 904 "src/geom2D.ml" 40 868 906
+type(
+  float
+)
+ident(
+  int_ref dy "src/geom2D.ml" 39 835 862 "src/geom2D.ml" 39 835 864
+)
+"src/geom2D.ml" 40 868 872 "src/geom2D.ml" 40 868 906
+call(
+  tail
+)
+type(
+  string
+)
+"src/geom2D.ml" 46 940 946 "src/geom2D.ml" 46 940 950
+type(
+  float -> float -> point
+)
+ident(
+  def make "src/geom2D.ml" 48 965 967 "src/geom2D.ml" 65 1338 1341
+)
+"src/geom2D.ml" 46 940 951 "src/geom2D.ml" 46 940 952
+type(
+  float
+)
+ident(
+  def x "src/geom2D.ml" 46 940 953 "src/geom2D.ml" 46 940 963
+)
+"src/geom2D.ml" 46 940 953 "src/geom2D.ml" 46 940 954
+type(
+  float
+)
+ident(
+  def y "src/geom2D.ml" 46 940 957 "src/geom2D.ml" 46 940 963
+)
+"src/geom2D.ml" 46 940 958 "src/geom2D.ml" 46 940 959
+type(
+  float
+)
+ident(
+  int_ref x "src/geom2D.ml" 46 940 951 "src/geom2D.ml" 46 940 952
+)
+"src/geom2D.ml" 46 940 961 "src/geom2D.ml" 46 940 962
+type(
+  float
+)
+ident(
+  int_ref y "src/geom2D.ml" 46 940 953 "src/geom2D.ml" 46 940 954
+)
+"src/geom2D.ml" 46 940 957 "src/geom2D.ml" 46 940 963
+type(
+  point
+)
+"src/geom2D.ml" 48 965 971 "src/geom2D.ml" 48 965 977
+type(
+  point
+)
+ident(
+  def origin "src/geom2D.ml" 50 993 995 "src/geom2D.ml" 65 1338 1341
+)
+"src/geom2D.ml" 48 965 980 "src/geom2D.ml" 48 965 984
+type(
+  float -> float -> point
+)
+ident(
+  int_ref make "src/geom2D.ml" 46 940 946 "src/geom2D.ml" 46 940 950
+)
+"src/geom2D.ml" 48 965 985 "src/geom2D.ml" 48 965 987
+type(
+  float
+)
+"src/geom2D.ml" 48 965 988 "src/geom2D.ml" 48 965 990
+type(
+  float
+)
+"src/geom2D.ml" 48 965 980 "src/geom2D.ml" 48 965 990
+call(
+  stack
+)
+type(
+  point
+)
+"src/geom2D.ml" 50 993 999 "src/geom2D.ml" 50 993 1006
+type(
+  point -> float
+)
+ident(
+  def x_coord "src/geom2D.ml" 51 1015 1017 "src/geom2D.ml" 65 1338 1341
+)
+"src/geom2D.ml" 50 993 1007 "src/geom2D.ml" 50 993 1008
+type(
+  point
+)
+ident(
+  def p "src/geom2D.ml" 50 993 1011 "src/geom2D.ml" 50 993 1014
+)
+"src/geom2D.ml" 50 993 1011 "src/geom2D.ml" 50 993 1012
+type(
+  point
+)
+ident(
+  int_ref p "src/geom2D.ml" 50 993 1007 "src/geom2D.ml" 50 993 1008
+)
+"src/geom2D.ml" 50 993 1011 "src/geom2D.ml" 50 993 1014
+type(
+  float
+)
+"src/geom2D.ml" 51 1015 1021 "src/geom2D.ml" 51 1015 1028
+type(
+  point -> float
+)
+ident(
+  def y_coord "src/geom2D.ml" 53 1038 1040 "src/geom2D.ml" 65 1338 1341
+)
+"src/geom2D.ml" 51 1015 1029 "src/geom2D.ml" 51 1015 1030
+type(
+  point
+)
+ident(
+  def p "src/geom2D.ml" 51 1015 1033 "src/geom2D.ml" 51 1015 1036
+)
+"src/geom2D.ml" 51 1015 1033 "src/geom2D.ml" 51 1015 1034
+type(
+  point
+)
+ident(
+  int_ref p "src/geom2D.ml" 51 1015 1029 "src/geom2D.ml" 51 1015 1030
+)
+"src/geom2D.ml" 51 1015 1033 "src/geom2D.ml" 51 1015 1036
+type(
+  float
+)
+"src/geom2D.ml" 53 1038 1044 "src/geom2D.ml" 53 1038 1055
+type(
+  point -> point -> float
+)
+ident(
+  def distance_sq "src/geom2D.ml" 56 1128 1130 "src/geom2D.ml" 65 1338 1341
+)
+"src/geom2D.ml" 53 1038 1059 "src/geom2D.ml" 53 1038 1060
+type(
+  float
+)
+ident(
+  def a "src/geom2D.ml" 53 1038 1066 "src/geom2D.ml" 54 1078 1126
+)
+"src/geom2D.ml" 53 1038 1063 "src/geom2D.ml" 53 1038 1064
+type(
+  float
+)
+ident(
+  def b "src/geom2D.ml" 53 1038 1066 "src/geom2D.ml" 54 1078 1126
+)
+"src/geom2D.ml" 53 1038 1056 "src/geom2D.ml" 53 1038 1065
+type(
+  point
+)
+"src/geom2D.ml" 53 1038 1069 "src/geom2D.ml" 53 1038 1070
+type(
+  float
+)
+ident(
+  def d "src/geom2D.ml" 54 1078 1082 "src/geom2D.ml" 54 1078 1126
+)
+"src/geom2D.ml" 53 1038 1073 "src/geom2D.ml" 53 1038 1074
+type(
+  float
+)
+ident(
+  def e "src/geom2D.ml" 54 1078 1082 "src/geom2D.ml" 54 1078 1126
+)
+"src/geom2D.ml" 53 1038 1066 "src/geom2D.ml" 53 1038 1075
+type(
+  point
+)
+"src/geom2D.ml" 54 1078 1083 "src/geom2D.ml" 54 1078 1084
+type(
+  float
+)
+ident(
+  int_ref a "src/geom2D.ml" 53 1038 1059 "src/geom2D.ml" 53 1038 1060
+)
+"src/geom2D.ml" 54 1078 1085 "src/geom2D.ml" 54 1078 1087
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/geom2D.ml" 54 1078 1088 "src/geom2D.ml" 54 1078 1089
+type(
+  float
+)
+ident(
+  int_ref d "src/geom2D.ml" 53 1038 1069 "src/geom2D.ml" 53 1038 1070
+)
+"src/geom2D.ml" 54 1078 1082 "src/geom2D.ml" 54 1078 1090
+type(
+  float
+)
+"src/geom2D.ml" 54 1078 1091 "src/geom2D.ml" 54 1078 1093
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geom2D.ml" 54 1078 1095 "src/geom2D.ml" 54 1078 1096
+type(
+  float
+)
+ident(
+  int_ref a "src/geom2D.ml" 53 1038 1059 "src/geom2D.ml" 53 1038 1060
+)
+"src/geom2D.ml" 54 1078 1097 "src/geom2D.ml" 54 1078 1099
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/geom2D.ml" 54 1078 1100 "src/geom2D.ml" 54 1078 1101
+type(
+  float
+)
+ident(
+  int_ref d "src/geom2D.ml" 53 1038 1069 "src/geom2D.ml" 53 1038 1070
+)
+"src/geom2D.ml" 54 1078 1094 "src/geom2D.ml" 54 1078 1102
+type(
+  float
+)
+"src/geom2D.ml" 54 1078 1082 "src/geom2D.ml" 54 1078 1102
+type(
+  float
+)
+"src/geom2D.ml" 54 1078 1103 "src/geom2D.ml" 54 1078 1105
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geom2D.ml" 54 1078 1107 "src/geom2D.ml" 54 1078 1108
+type(
+  float
+)
+ident(
+  int_ref b "src/geom2D.ml" 53 1038 1063 "src/geom2D.ml" 53 1038 1064
+)
+"src/geom2D.ml" 54 1078 1109 "src/geom2D.ml" 54 1078 1111
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/geom2D.ml" 54 1078 1112 "src/geom2D.ml" 54 1078 1113
+type(
+  float
+)
+ident(
+  int_ref e "src/geom2D.ml" 53 1038 1073 "src/geom2D.ml" 53 1038 1074
+)
+"src/geom2D.ml" 54 1078 1106 "src/geom2D.ml" 54 1078 1114
+type(
+  float
+)
+"src/geom2D.ml" 54 1078 1115 "src/geom2D.ml" 54 1078 1117
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geom2D.ml" 54 1078 1119 "src/geom2D.ml" 54 1078 1120
+type(
+  float
+)
+ident(
+  int_ref b "src/geom2D.ml" 53 1038 1063 "src/geom2D.ml" 53 1038 1064
+)
+"src/geom2D.ml" 54 1078 1121 "src/geom2D.ml" 54 1078 1123
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/geom2D.ml" 54 1078 1124 "src/geom2D.ml" 54 1078 1125
+type(
+  float
+)
+ident(
+  int_ref e "src/geom2D.ml" 53 1038 1073 "src/geom2D.ml" 53 1038 1074
+)
+"src/geom2D.ml" 54 1078 1118 "src/geom2D.ml" 54 1078 1126
+type(
+  float
+)
+"src/geom2D.ml" 54 1078 1106 "src/geom2D.ml" 54 1078 1126
+type(
+  float
+)
+"src/geom2D.ml" 54 1078 1082 "src/geom2D.ml" 54 1078 1126
+type(
+  float
+)
+"src/geom2D.ml" 56 1128 1134 "src/geom2D.ml" 56 1128 1142
+type(
+  point -> point -> float
+)
+ident(
+  def distance "src/geom2D.ml" 59 1185 1187 "src/geom2D.ml" 65 1338 1341
+)
+"src/geom2D.ml" 56 1128 1143 "src/geom2D.ml" 56 1128 1145
+type(
+  point
+)
+ident(
+  def p1 "src/geom2D.ml" 56 1128 1146 "src/geom2D.ml" 57 1151 1179
+)
+"src/geom2D.ml" 56 1128 1146 "src/geom2D.ml" 56 1128 1148
+type(
+  point
+)
+ident(
+  def p2 "src/geom2D.ml" 57 1151 1155 "src/geom2D.ml" 57 1151 1179
+)
+"src/geom2D.ml" 57 1151 1155 "src/geom2D.ml" 57 1151 1159
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.sqrt
+)
+"src/geom2D.ml" 57 1151 1161 "src/geom2D.ml" 57 1151 1172
+type(
+  point -> point -> float
+)
+ident(
+  int_ref distance_sq "src/geom2D.ml" 53 1038 1044 "src/geom2D.ml" 53 1038 1055
+)
+"src/geom2D.ml" 57 1151 1173 "src/geom2D.ml" 57 1151 1175
+type(
+  point
+)
+ident(
+  int_ref p1 "src/geom2D.ml" 56 1128 1143 "src/geom2D.ml" 56 1128 1145
+)
+"src/geom2D.ml" 57 1151 1176 "src/geom2D.ml" 57 1151 1178
+type(
+  point
+)
+ident(
+  int_ref p2 "src/geom2D.ml" 56 1128 1146 "src/geom2D.ml" 56 1128 1148
+)
+"src/geom2D.ml" 57 1151 1160 "src/geom2D.ml" 57 1151 1179
+call(
+  stack
+)
+type(
+  float
+)
+"src/geom2D.ml" 57 1151 1155 "src/geom2D.ml" 57 1151 1179
+type(
+  float
+)
+"src/geom2D.ml" 59 1185 1191 "src/geom2D.ml" 59 1185 1207
+type(
+  point -> vector -> point
+)
+ident(
+  def translate_vector "src/geom2D.ml" 62 1266 1268 "src/geom2D.ml" 65 1338 1341
+)
+"src/geom2D.ml" 59 1185 1208 "src/geom2D.ml" 59 1185 1210
+type(
+  point
+)
+ident(
+  def pt "src/geom2D.ml" 59 1185 1211 "src/geom2D.ml" 60 1218 1264
+)
+"src/geom2D.ml" 59 1185 1211 "src/geom2D.ml" 59 1185 1215
+type(
+  vector
+)
+ident(
+  def vect "src/geom2D.ml" 60 1218 1222 "src/geom2D.ml" 60 1218 1264
+)
+"src/geom2D.ml" 60 1218 1227 "src/geom2D.ml" 60 1218 1229
+type(
+  point
+)
+ident(
+  int_ref pt "src/geom2D.ml" 59 1185 1208 "src/geom2D.ml" 59 1185 1210
+)
+"src/geom2D.ml" 60 1218 1227 "src/geom2D.ml" 60 1218 1231
+type(
+  float
+)
+"src/geom2D.ml" 60 1218 1232 "src/geom2D.ml" 60 1218 1234
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geom2D.ml" 60 1218 1235 "src/geom2D.ml" 60 1218 1239
+type(
+  vector
+)
+ident(
+  int_ref vect "src/geom2D.ml" 59 1185 1211 "src/geom2D.ml" 59 1185 1215
+)
+"src/geom2D.ml" 60 1218 1235 "src/geom2D.ml" 60 1218 1242
+type(
+  float
+)
+"src/geom2D.ml" 60 1218 1227 "src/geom2D.ml" 60 1218 1242
+type(
+  float
+)
+"src/geom2D.ml" 60 1218 1248 "src/geom2D.ml" 60 1218 1250
+type(
+  point
+)
+ident(
+  int_ref pt "src/geom2D.ml" 59 1185 1208 "src/geom2D.ml" 59 1185 1210
+)
+"src/geom2D.ml" 60 1218 1248 "src/geom2D.ml" 60 1218 1252
+type(
+  float
+)
+"src/geom2D.ml" 60 1218 1253 "src/geom2D.ml" 60 1218 1255
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geom2D.ml" 60 1218 1256 "src/geom2D.ml" 60 1218 1260
+type(
+  vector
+)
+ident(
+  int_ref vect "src/geom2D.ml" 59 1185 1211 "src/geom2D.ml" 59 1185 1215
+)
+"src/geom2D.ml" 60 1218 1256 "src/geom2D.ml" 60 1218 1263
+type(
+  float
+)
+"src/geom2D.ml" 60 1218 1248 "src/geom2D.ml" 60 1218 1263
+type(
+  float
+)
+"src/geom2D.ml" 60 1218 1222 "src/geom2D.ml" 60 1218 1264
+type(
+  point
+)
+"src/geom2D.ml" 62 1266 1272 "src/geom2D.ml" 62 1266 1287
+type(
+  point -> string
+)
+ident(
+  def string_of_point "src/geom2D.ml" 63 1296 1332 "src/geom2D.ml" 65 1338 1341
+)
+"src/geom2D.ml" 62 1266 1289 "src/geom2D.ml" 62 1266 1290
+type(
+  float
+)
+ident(
+  def x "src/geom2D.ml" 63 1296 1300 "src/geom2D.ml" 63 1296 1332
+)
+"src/geom2D.ml" 62 1266 1291 "src/geom2D.ml" 62 1266 1292
+type(
+  float
+)
+ident(
+  def y "src/geom2D.ml" 63 1296 1300 "src/geom2D.ml" 63 1296 1332
+)
+"src/geom2D.ml" 62 1266 1288 "src/geom2D.ml" 62 1266 1293
+type(
+  point
+)
+"src/geom2D.ml" 63 1296 1300 "src/geom2D.ml" 63 1296 1314
+type(
+  (float -> float -> string, unit, string) format -> float -> float -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"src/geom2D.ml" 63 1296 1315 "src/geom2D.ml" 63 1296 1328
+type(
+  (float -> float -> string, unit, string) format
+)
+"src/geom2D.ml" 63 1296 1329 "src/geom2D.ml" 63 1296 1330
+type(
+  float
+)
+ident(
+  int_ref x "src/geom2D.ml" 62 1266 1289 "src/geom2D.ml" 62 1266 1290
+)
+"src/geom2D.ml" 63 1296 1331 "src/geom2D.ml" 63 1296 1332
+type(
+  float
+)
+ident(
+  int_ref y "src/geom2D.ml" 62 1266 1291 "src/geom2D.ml" 62 1266 1292
+)
+"src/geom2D.ml" 63 1296 1300 "src/geom2D.ml" 63 1296 1332
+call(
+  tail
+)
+type(
+  string
+)

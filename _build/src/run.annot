@@ -1,0 +1,676 @@
+"src/run.ml" 3 13 17 "src/run.ml" 3 13 28
+type(
+  ('a -> unit) -> 'a option -> unit
+)
+ident(
+  def doifnotnone "src/run.ml" 8 87 87 "src/run.ml" 1 0 -1
+)
+"src/run.ml" 3 13 29 "src/run.ml" 3 13 30
+type(
+  'a -> unit
+)
+ident(
+  def f "src/run.ml" 3 13 31 "src/run.ml" 6 72 85
+)
+"src/run.ml" 3 13 31 "src/run.ml" 3 13 34
+type(
+  'a option
+)
+ident(
+  def opt "src/run.ml" 4 37 39 "src/run.ml" 6 72 85
+)
+"src/run.ml" 4 37 45 "src/run.ml" 4 37 48
+type(
+  'a option
+)
+ident(
+  int_ref opt "src/run.ml" 3 13 31 "src/run.ml" 3 13 34
+)
+"src/run.ml" 5 54 62 "src/run.ml" 5 54 63
+ident(
+  def x "src/run.ml" 5 54 68 "src/run.ml" 5 54 71
+)
+"src/run.ml" 5 54 61 "src/run.ml" 5 54 64
+type(
+  'a
+)
+"src/run.ml" 5 54 57 "src/run.ml" 5 54 64
+type(
+  'a option
+)
+"src/run.ml" 5 54 68 "src/run.ml" 5 54 69
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "src/run.ml" 3 13 29 "src/run.ml" 3 13 30
+)
+"src/run.ml" 5 54 70 "src/run.ml" 5 54 71
+type(
+  'a
+)
+ident(
+  int_ref x "src/run.ml" 5 54 61 "src/run.ml" 5 54 64
+)
+"src/run.ml" 5 54 68 "src/run.ml" 5 54 71
+call(
+  tail
+)
+type(
+  unit
+)
+"src/run.ml" 6 72 75 "src/run.ml" 6 72 79
+type(
+  'a option
+)
+"src/run.ml" 6 72 83 "src/run.ml" 6 72 85
+type(
+  unit
+)
+"src/run.ml" 4 37 39 "src/run.ml" 6 72 85
+type(
+  unit
+)
+"src/run.ml" 8 87 91 "src/run.ml" 8 87 100
+type(
+  World.t -> Config.world_config -> unit
+)
+ident(
+  def run_world "src/run.ml" 50 1036 1036 "src/run.ml" 1 0 -1
+)
+"src/run.ml" 8 87 102 "src/run.ml" 8 87 107
+type(
+  World.t
+)
+ident(
+  def world "src/run.ml" 8 87 119 "src/run.ml" 48 1011 1034
+)
+"src/run.ml" 8 87 120 "src/run.ml" 8 87 126
+type(
+  Config.world_config
+)
+ident(
+  def config "src/run.ml" 10 153 155 "src/run.ml" 48 1011 1034
+)
+"src/run.ml" 10 153 159 "src/run.ml" 10 153 161
+type(
+  unit
+)
+"src/run.ml" 11 164 174 "src/run.ml" 11 164 180
+type(
+  Config.world_config
+)
+ident(
+  int_ref config "src/run.ml" 8 87 120 "src/run.ml" 8 87 126
+)
+"src/run.ml" 11 164 174 "src/run.ml" 11 164 185
+type(
+  Config.gui_config option
+)
+"src/run.ml" 12 191 201 "src/run.ml" 12 191 211
+type(
+  Config.gui_config
+)
+ident(
+  def gui_config "src/run.ml" 13 216 222 "src/run.ml" 13 216 295
+)
+"src/run.ml" 12 191 196 "src/run.ml" 12 191 211
+type(
+  Config.gui_config option
+)
+"src/run.ml" 13 216 222 "src/run.ml" 13 216 241
+type(
+  string -> unit
+)
+ident(
+  ext_ref Graphics.open_graph
+)
+"src/run.ml" 13 216 243 "src/run.ml" 13 216 257
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/run.ml" 13 216 258 "src/run.ml" 13 216 266
+type(
+  (int -> int -> string, unit, string) format
+)
+"src/run.ml" 13 216 267 "src/run.ml" 13 216 277
+type(
+  Config.gui_config
+)
+ident(
+  int_ref gui_config "src/run.ml" 12 191 201 "src/run.ml" 12 191 211
+)
+"src/run.ml" 13 216 267 "src/run.ml" 13 216 280
+type(
+  int
+)
+"src/run.ml" 13 216 281 "src/run.ml" 13 216 291
+type(
+  Config.gui_config
+)
+ident(
+  int_ref gui_config "src/run.ml" 12 191 201 "src/run.ml" 12 191 211
+)
+"src/run.ml" 13 216 281 "src/run.ml" 13 216 294
+type(
+  int
+)
+"src/run.ml" 13 216 242 "src/run.ml" 13 216 295
+call(
+  stack
+)
+type(
+  string
+)
+"src/run.ml" 13 216 222 "src/run.ml" 13 216 295
+call(
+  stack
+)
+type(
+  unit
+)
+"src/run.ml" 14 296 301 "src/run.ml" 14 296 305
+type(
+  Config.gui_config option
+)
+"src/run.ml" 14 296 309 "src/run.ml" 14 296 311
+type(
+  unit
+)
+"src/run.ml" 11 164 168 "src/run.ml" 14 296 311
+type(
+  unit
+)
+"src/run.ml" 23 474 484 "src/run.ml" 23 474 488
+type(
+  World.t -> float -> unit
+)
+ident(
+  def loop "src/run.ml" 23 474 476 "src/run.ml" 48 1011 1034
+)
+"src/run.ml" 23 474 489 "src/run.ml" 23 474 494
+type(
+  World.t
+)
+ident(
+  def world "src/run.ml" 23 474 495 "src/run.ml" 45 995 1004
+)
+"src/run.ml" 23 474 495 "src/run.ml" 23 474 496
+type(
+  float
+)
+ident(
+  def t "src/run.ml" 25 500 504 "src/run.ml" 45 995 1004
+)
+"src/run.ml" 25 500 508 "src/run.ml" 25 500 513
+type(
+  float
+)
+ident(
+  def t_beg "src/run.ml" 26 532 536 "src/run.ml" 45 995 1004
+)
+"src/run.ml" 25 500 516 "src/run.ml" 25 500 525
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.time
+)
+"src/run.ml" 25 500 526 "src/run.ml" 25 500 528
+type(
+  unit
+)
+"src/run.ml" 25 500 516 "src/run.ml" 25 500 528
+call(
+  stack
+)
+type(
+  float
+)
+"src/run.ml" 26 532 539 "src/run.ml" 26 532 540
+type(
+  float
+)
+ident(
+  int_ref t "src/run.ml" 23 474 495 "src/run.ml" 23 474 496
+)
+"src/run.ml" 26 532 541 "src/run.ml" 26 532 542
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/run.ml" 26 532 543 "src/run.ml" 26 532 549
+type(
+  Config.world_config
+)
+ident(
+  int_ref config "src/run.ml" 8 87 120 "src/run.ml" 8 87 126
+)
+"src/run.ml" 26 532 543 "src/run.ml" 26 532 555
+type(
+  float
+)
+"src/run.ml" 26 532 539 "src/run.ml" 26 532 555
+type(
+  bool
+)
+"src/run.ml" 28 573 578 "src/run.ml" 28 573 580
+type(
+  Geom2D.vector array
+)
+ident(
+  def sf "src/run.ml" 29 609 610 "src/run.ml" 44 961 994
+)
+"src/run.ml" 28 573 583 "src/run.ml" 28 573 599
+type(
+  World.t -> Geom2D.vector array
+)
+ident(
+  ext_ref Physic.sum_force
+)
+"src/run.ml" 28 573 600 "src/run.ml" 28 573 605
+type(
+  World.t
+)
+ident(
+  int_ref world "src/run.ml" 23 474 489 "src/run.ml" 23 474 494
+)
+"src/run.ml" 28 573 583 "src/run.ml" 28 573 605
+call(
+  stack
+)
+type(
+  Geom2D.vector array
+)
+"src/run.ml" 29 609 614 "src/run.ml" 29 609 624
+type(
+  World.t
+)
+ident(
+  def next_world "src/run.ml" 36 753 754 "src/run.ml" 44 961 994
+)
+"src/run.ml" 29 609 627 "src/run.ml" 29 609 638
+type(
+  World.t -> Geom2D.vector array -> float -> World.t
+)
+ident(
+  ext_ref Physic.step
+)
+"src/run.ml" 29 609 639 "src/run.ml" 29 609 644
+type(
+  World.t
+)
+ident(
+  int_ref world "src/run.ml" 23 474 489 "src/run.ml" 23 474 494
+)
+"src/run.ml" 29 609 645 "src/run.ml" 29 609 647
+type(
+  Geom2D.vector array
+)
+ident(
+  int_ref sf "src/run.ml" 28 573 578 "src/run.ml" 28 573 580
+)
+"src/run.ml" 29 609 648 "src/run.ml" 29 609 654
+type(
+  Config.world_config
+)
+ident(
+  int_ref config "src/run.ml" 8 87 120 "src/run.ml" 8 87 126
+)
+"src/run.ml" 29 609 648 "src/run.ml" 29 609 657
+type(
+  float
+)
+"src/run.ml" 29 609 627 "src/run.ml" 29 609 657
+call(
+  stack
+)
+type(
+  World.t
+)
+"src/run.ml" 37 761 770 "src/run.ml" 37 761 776
+type(
+  Config.world_config
+)
+ident(
+  int_ref config "src/run.ml" 8 87 120 "src/run.ml" 8 87 126
+)
+"src/run.ml" 37 761 770 "src/run.ml" 37 761 781
+type(
+  Config.gui_config option
+)
+"src/run.ml" 38 787 797 "src/run.ml" 38 787 807
+type(
+  Config.gui_config
+)
+ident(
+  def gui_config "src/run.ml" 38 787 811 "src/run.ml" 38 787 842
+)
+"src/run.ml" 38 787 792 "src/run.ml" 38 787 807
+type(
+  Config.gui_config option
+)
+"src/run.ml" 38 787 811 "src/run.ml" 38 787 825
+type(
+  World.t -> Config.gui_config -> unit
+)
+ident(
+  ext_ref Gui.draw_world
+)
+"src/run.ml" 38 787 826 "src/run.ml" 38 787 831
+type(
+  World.t
+)
+ident(
+  int_ref world "src/run.ml" 23 474 489 "src/run.ml" 23 474 494
+)
+"src/run.ml" 38 787 832 "src/run.ml" 38 787 842
+type(
+  Config.gui_config
+)
+ident(
+  int_ref gui_config "src/run.ml" 38 787 797 "src/run.ml" 38 787 807
+)
+"src/run.ml" 38 787 811 "src/run.ml" 38 787 842
+call(
+  stack
+)
+type(
+  unit
+)
+"src/run.ml" 39 843 848 "src/run.ml" 39 843 852
+type(
+  Config.gui_config option
+)
+"src/run.ml" 39 843 856 "src/run.ml" 39 843 858
+type(
+  unit
+)
+"src/run.ml" 36 753 754 "src/run.ml" 40 859 863
+type(
+  unit
+)
+"src/run.ml" 42 867 872 "src/run.ml" 42 867 877
+type(
+  float
+)
+ident(
+  def t_now "src/run.ml" 43 896 897 "src/run.ml" 44 961 994
+)
+"src/run.ml" 42 867 880 "src/run.ml" 42 867 889
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.time
+)
+"src/run.ml" 42 867 890 "src/run.ml" 42 867 892
+type(
+  unit
+)
+"src/run.ml" 42 867 880 "src/run.ml" 42 867 892
+call(
+  stack
+)
+type(
+  float
+)
+"src/run.ml" 43 896 897 "src/run.ml" 43 896 908
+type(
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  float -> Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  ext_ref Unix.select
+)
+"src/run.ml" 43 896 909 "src/run.ml" 43 896 911
+type(
+  Unix.file_descr list
+)
+"src/run.ml" 43 896 912 "src/run.ml" 43 896 914
+type(
+  Unix.file_descr list
+)
+"src/run.ml" 43 896 915 "src/run.ml" 43 896 917
+type(
+  Unix.file_descr list
+)
+"src/run.ml" 43 896 919 "src/run.ml" 43 896 925
+type(
+  Config.world_config
+)
+ident(
+  int_ref config "src/run.ml" 8 87 120 "src/run.ml" 8 87 126
+)
+"src/run.ml" 43 896 919 "src/run.ml" 43 896 938
+type(
+  float
+)
+"src/run.ml" 43 896 939 "src/run.ml" 43 896 941
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/run.ml" 43 896 943 "src/run.ml" 43 896 948
+type(
+  float
+)
+ident(
+  int_ref t_now "src/run.ml" 42 867 872 "src/run.ml" 42 867 877
+)
+"src/run.ml" 43 896 949 "src/run.ml" 43 896 951
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/run.ml" 43 896 952 "src/run.ml" 43 896 957
+type(
+  float
+)
+ident(
+  int_ref t_beg "src/run.ml" 25 500 508 "src/run.ml" 25 500 513
+)
+"src/run.ml" 43 896 942 "src/run.ml" 43 896 958
+type(
+  float
+)
+"src/run.ml" 43 896 918 "src/run.ml" 43 896 959
+type(
+  float
+)
+"src/run.ml" 43 896 897 "src/run.ml" 43 896 959
+call(
+  stack
+)
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"src/run.ml" 44 961 962 "src/run.ml" 44 961 966
+type(
+  World.t -> float -> unit
+)
+ident(
+  int_ref loop "src/run.ml" 23 474 484 "src/run.ml" 23 474 488
+)
+"src/run.ml" 44 961 967 "src/run.ml" 44 961 977
+type(
+  World.t
+)
+ident(
+  int_ref next_world "src/run.ml" 29 609 614 "src/run.ml" 29 609 624
+)
+"src/run.ml" 44 961 979 "src/run.ml" 44 961 980
+type(
+  float
+)
+ident(
+  int_ref t "src/run.ml" 23 474 495 "src/run.ml" 23 474 496
+)
+"src/run.ml" 44 961 981 "src/run.ml" 44 961 983
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/run.ml" 44 961 984 "src/run.ml" 44 961 990
+type(
+  Config.world_config
+)
+ident(
+  int_ref config "src/run.ml" 8 87 120 "src/run.ml" 8 87 126
+)
+"src/run.ml" 44 961 984 "src/run.ml" 44 961 993
+type(
+  float
+)
+"src/run.ml" 44 961 978 "src/run.ml" 44 961 994
+type(
+  float
+)
+"src/run.ml" 44 961 962 "src/run.ml" 44 961 994
+call(
+  tail
+)
+type(
+  unit
+)
+"src/run.ml" 43 896 897 "src/run.ml" 44 961 994
+type(
+  unit
+)
+"src/run.ml" 42 867 868 "src/run.ml" 44 961 994
+type(
+  unit
+)
+"src/run.ml" 36 753 754 "src/run.ml" 44 961 994
+type(
+  unit
+)
+"src/run.ml" 29 609 610 "src/run.ml" 44 961 994
+type(
+  unit
+)
+"src/run.ml" 27 561 567 "src/run.ml" 45 995 1004
+type(
+  unit
+)
+"src/run.ml" 26 532 536 "src/run.ml" 45 995 1004
+type(
+  unit
+)
+"src/run.ml" 25 500 504 "src/run.ml" 45 995 1004
+type(
+  unit
+)
+"src/run.ml" 48 1011 1013 "src/run.ml" 48 1011 1017
+type(
+  World.t -> float -> unit
+)
+ident(
+  int_ref loop "src/run.ml" 23 474 484 "src/run.ml" 23 474 488
+)
+"src/run.ml" 48 1011 1018 "src/run.ml" 48 1011 1023
+type(
+  World.t
+)
+ident(
+  int_ref world "src/run.ml" 8 87 102 "src/run.ml" 8 87 107
+)
+"src/run.ml" 48 1011 1024 "src/run.ml" 48 1011 1030
+type(
+  Config.world_config
+)
+ident(
+  int_ref config "src/run.ml" 8 87 120 "src/run.ml" 8 87 126
+)
+"src/run.ml" 48 1011 1024 "src/run.ml" 48 1011 1034
+type(
+  float
+)
+"src/run.ml" 48 1011 1013 "src/run.ml" 48 1011 1034
+call(
+  tail
+)
+type(
+  unit
+)
+"src/run.ml" 23 474 476 "src/run.ml" 48 1011 1034
+type(
+  unit
+)
+"src/run.ml" 10 153 155 "src/run.ml" 48 1011 1034
+type(
+  unit
+)
+"src/run.ml" 50 1036 1040 "src/run.ml" 50 1036 1053
+type(
+  World.t
+)
+ident(
+  def current_world "src/run.ml" 51 1076 1076 "src/run.ml" 1 0 -1
+)
+"src/run.ml" 50 1036 1056 "src/run.ml" 50 1036 1075
+type(
+  World.t
+)
+ident(
+  ext_ref Orbital_world.world
+)
+"src/run.ml" 51 1076 1080 "src/run.ml" 51 1076 1100
+type(
+  Config.world_config
+)
+ident(
+  def current_world_config "src/run.ml" 53 1131 1131 "src/run.ml" 1 0 -1
+)
+"src/run.ml" 51 1076 1103 "src/run.ml" 51 1076 1129
+type(
+  Config.world_config
+)
+ident(
+  ext_ref Orbital_world.world_config
+)
+"src/run.ml" 53 1131 1135 "src/run.ml" 53 1131 1137
+type(
+  unit
+)
+"src/run.ml" 54 1140 1142 "src/run.ml" 54 1140 1151
+type(
+  World.t -> Config.world_config -> unit
+)
+ident(
+  int_ref run_world "src/run.ml" 8 87 91 "src/run.ml" 8 87 100
+)
+"src/run.ml" 54 1140 1152 "src/run.ml" 54 1140 1165
+type(
+  World.t
+)
+ident(
+  int_ref current_world "src/run.ml" 50 1036 1040 "src/run.ml" 50 1036 1053
+)
+"src/run.ml" 54 1140 1166 "src/run.ml" 54 1140 1186
+type(
+  Config.world_config
+)
+ident(
+  int_ref current_world_config "src/run.ml" 51 1076 1080 "src/run.ml" 51 1076 1100
+)
+"src/run.ml" 54 1140 1142 "src/run.ml" 54 1140 1186
+call(
+  stack
+)
+type(
+  unit
+)
