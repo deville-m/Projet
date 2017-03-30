@@ -18,4 +18,12 @@ let sum_force w =
 	
          
 let step w sfl dt =
-  assert false
+  Array.iteri (fun id body ->
+      body <- {
+                   mass = body.mass;
+                   pos = body.pos;
+                   spe = (Vector.add body.spe (Vector.scal_mult (dt /. body.mass) sfl.(i)));
+                   radius = body.radius;
+                   col = body.col;
+                 }
+    ) w.bodies
