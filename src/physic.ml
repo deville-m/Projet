@@ -19,11 +19,12 @@ let sum_force w =
          
 let step w sfl dt =
   Array.iteri (fun id body ->
-      body <- {
+      w.bodies.(id) <- {
                    mass = body.mass;
                    pos = body.pos;
-                   spe = (Vector.add body.spe (Vector.scal_mult (dt /. body.mass) sfl.(i)));
+                   spe = (Vector.add body.spe (Vector.scal_mult (dt /. body.mass) sfl.(id)));
                    radius = body.radius;
                    col = body.col;
                  }
-    ) w.bodies
+    ) w.bodies;
+  w
