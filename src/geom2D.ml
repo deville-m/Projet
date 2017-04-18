@@ -17,7 +17,7 @@ module Vector = struct
       
   let magnitude ({dx;dy}:vector) =
     sqrt (dx *. dx +. dy *. dy)
-           
+         
   let dot_product vect1 vect2 =
     vect1.dx *. vect2.dx +. vect1.dy *. vect2.dy
 
@@ -42,7 +42,7 @@ module Vector = struct
 end
 
 module Point = struct
-    
+  
   let make x y = {x; y}
 
   let origin = make 0. 0. 
@@ -55,11 +55,11 @@ module Point = struct
 
   let distance p1 p2 =
     sqrt (distance_sq p1 p2)
-    
+         
   let translate_vector pt vect =
     {x = pt.x +. vect.dx; y = pt.y +. vect.dy}
 
   let string_of_point {x;y} =
     Format.sprintf "@[(%f,%f)@]" x y
-    
+                   
 end

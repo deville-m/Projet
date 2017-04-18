@@ -15,13 +15,13 @@ let sum_force w =
   let res = Array.make (Array.length w.bodies) (Vector.nul_vector) in
   List.iter (fun (i, f)  ->  res.(i) <- Vector.add (eval_force w (i, f)) res.(i)) w.forces;
   res
-	
-         
+
+
 let step w sfl dt =
   Array.iteri (fun id body ->
       w.bodies.(id) <- {
                    mass = body.mass;
-                   pos = body.pos;
+                   pos = Point.translate_vector body.pos (Vector.scal_mult dt body.spe);
                    spe = (Vector.add body.spe (Vector.scal_mult (dt /. body.mass) sfl.(id)));
                    radius = body.radius;
                    col = body.col;

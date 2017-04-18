@@ -20,7 +20,7 @@ let world_gui_config =
 
 let world_config =
   {
-    dt = 0.01;
+    dt = 0.001;
     t_0 = 0.;
     t_end = 1000.;
     refresh_time = 0.01;

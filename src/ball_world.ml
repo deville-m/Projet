@@ -5,9 +5,9 @@ open Body
 open Force
 
 let world_gui_config =
-  { lx = 10.;
+  { lx = 20.;
     ly = 10.;
-    scale = 1.;
+    scale = 0.5;
     tx = 800;
     ty = 800;
     center = Point.make 5. 5.;
@@ -41,7 +41,7 @@ let ball =
 let ball2 = 
   { mass = 0.1;
     pos = Point.make 1. 1.;
-    spe = Vector.make 7.5 7.5;
+    spe = Vector.make 10.5 7.5;
 
     radius = 10.;
     col = Graphics.red;
@@ -70,9 +70,9 @@ let earth =
 let world =
   {
     bodies = [| ball; ball2; earth |]; 
-    forces = [ (0, Grav 3); (1, Grav 3); 
-	       (3, Grav 0); (3, Grav 1); 
-	       (1, Fric 0.05) ];
+    forces = [ (0, Grav 2); (1, Grav 2); 
+	       (2, Grav 0); (2, Grav 1); 
+(* (1, Fric 0.05) *) ];
     g = 6.67e-11
   }
   
